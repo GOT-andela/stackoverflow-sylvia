@@ -1,0 +1,118 @@
+.body{
+	background-image: .background.jpg;
+}
+.registration-page{
+	width: 400px;
+	padding: 10%;
+	margin: auto;
+}
+.login-page{
+	width: 400px;
+	padding: 10%;
+    margin: auto;
+}
+.form{
+	position: relative;
+	z-index: 1;
+	max-width: 400px;
+	padding: 30px;
+	margin: 0px auto 100px;
+	text-align: center;
+	background: #00529c;
+}
+.form input{
+	font-size: 14px;
+	font-family: "Roboto", sans-serif;
+	outline: 1;
+	box-sizing: border-box;
+	padding: 15px;
+	margin:auto;
+	z-index: 1;
+	margin-bottom: 10px;
+	background: #f2f2f2;
+}
+.form button{
+	font-size: 14px;
+	font-family: "Roboto", sans-serif;
+	outline: 0;	
+	padding: 10px;
+	background: #949494;
+	color: #ffffff;
+	cursor: pointer;
+	width: 30%
+}
+.form button:hover,.form button:active{
+	background: #949495;
+}
+.form .message{
+	color: #ffffff;
+	font-size: 13px
+}
+.form .message a{
+	color: aliceblue;
+	
+}
+.topnav{
+ 	background-color: #eae5e5;
+ 	text-decoration: none;
+ 	overflow: hidden;
+ 	padding: 10px; 	
+ }
+ .topnav2{
+ 	background-color: #333;
+ 	overflow: hidden;
+ 	position: fixed;
+ 	padding: 10px;
+ 	width: 97.75%;
+ }
+  .topnav2 a{
+ 	float: left;
+ 	color: #ffffff;
+ 	text-align: center;
+ 	padding: 5px;
+ 	text-decoration: none;
+ 	font-size: 14px;
+ }
+ .rigntnavcontent{
+ 	float: right;
+ 	overflow: hidden;
+}
+ .topnav2 a:hover{
+ 	background-color: #2fa9b5;
+ 	color: white;
+
+ }
+  .topnav2	a.active{
+ 	background-color: #2fa9b5;
+ 	color: white;
+ }
+ 
+ .bottomnav a{
+ 	float: left;
+ 	color: #ffffff;
+ 	text-align: center;
+ 	padding: 5px;
+ 	text-decoration: none;
+ 	font-size: 14px;
+ }
+ .bottomnav{
+ 	background-color: #333;
+ 	overflow: hidden;
+ 	padding: 10px;
+ 	position: fixed;
+ 	bottom: 0;
+ 	width: 97.75%;
+ }
+ .bottomnav	a:hover{
+ 	background-color: #2fa9b5;
+ 	color: white;
+ }
+ .bottomnav	a.active{
+ 	background-color: #2fa9b5;
+ 	color: white;
+ }
+ .split-left{
+ 	height: 100%
+ 	width:50%;
+ 	background-color: #d8762b;
+ }
